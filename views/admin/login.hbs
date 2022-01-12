@@ -1,0 +1,24 @@
+<section class='vh-100' style='background-color: #f0f2f5;'>
+  <div class='container py-5 h-100'>
+    <div class='row d-flex justify-content-center align-items-center h-100'>
+      <div class='col-12 col-md-8 col-lg-6 col-xl-5'>
+        <div class='card shadow-2-strong' style='border-radius: 1rem;'>
+          <div class='card-body p-5 text-center'>
+            <h3 class='mb-4'>LIBRARIAN LOGIN</h3>
+            <form action='/admin/login' method='POST'>
+              <div class='form-outline mb-4'>
+                <input type='email' name='Email' placeholder='Email address' class='form-control form-control-lg'/>
+              </div>
+              <div class='form-outline mb-4'>
+                <input type='password' name='Password' placeholder='Password' class='form-control form-control-lg'/>
+              </div>
+              <button class='btn btn-primary btn-lg btn-block' style='background-color: #385898;' type='submit'>Login</button>
+            </form>
+            <hr class='my-4' />
+            <a href='/admin/signup' class='btn btn-lg btn-block btn-primary' style='background-color: #42b72a;'hidden>Create New Account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
